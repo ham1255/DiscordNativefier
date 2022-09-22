@@ -41,7 +41,7 @@ jobs:
           path: "./discord-web-native-windows.zip"
       # linux
       - run: "npx nativefier \"https://discordapp.com/app\" --name \"discord\" -p linux output"
-      - run: "zip discord-web-native-linux output/discord-linux -r"
+      - run: "zip discord-web-native-linux output/discord-linux-x64 -r"
       - name: upload linux
         uses: actions/upload-artifact@v3.1.0
         with:
