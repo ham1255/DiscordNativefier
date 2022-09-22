@@ -29,11 +29,5 @@ jobs:
         uses: actions/setup-node@v3.4.1
         with:
           node-version: 18.x
-          run: npm install -g nativefier
-        
-        
-          
-
-
-
-
+      - run: "npm install nativefier"
+      
