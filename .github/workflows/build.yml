@@ -31,4 +31,5 @@ jobs:
           node-version: 18.x
       - run: "npm install nativefier"
       - run: "sudo apt install wine64"
+      - run: "nativefier \"https://discordapp.com/app\" --name \"discord\" -p windows"
       
